@@ -4,160 +4,287 @@
 	<meta charset="UTF-8">
 	<title>Shop</title>
 	<link rel="stylesheet" href="reset.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="index.css">
+	
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="logo-col-md-3"><img src="demoshop/icon (3).png" alt=""></div>
-				<div class="menu-col-md-6">
-					<ul class="main-menu">
-						<li><a href="#">menu</a></li>
-						<li class="products"><a href="#">products</a>
-							<ul class="sub-menu">
-								<li><a href="#">Lorem ipsum dolor</a></li>
-								<li><a href="#">Sit amet</a></li>
-								<li><a href="#">Consectetur adipisicing</a></li>
-								<li><a href="#">Tempor incididunt</a></li>
-								<li><a href="#">Dolore magna aliqua </a></li>
-								<li><a href="#">Ut enim ad minim veniam</a></li>
-								<li><a href="#">Quist nostrud</a></li>
-							</ul>
-						</li>
-						<li><a href="#">payment</a></li>
-						<li class="shipping"><a href="#">shipping</a></li>
-					</ul>
-
-				</div>
-				<div class="search-col-md-3">
-				<div class="search">
-				
-					 <form action="" target="">
-						  <input type="search" placeholder="search">
-						  <input type="image" src="images/icon (4).png" alt="">
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="logo col-sm-12 col-md-3"><img src="demoshop/icon (3).png" alt=""></div>
+			<div class="menu col-sm-12 col-md-6">
+				<ul class="main-menu">
+					<li><a href="#">menu</a></li>
+					<li class="products"><a href="#">products</a>
+						<ul class="sub-menu">
+							<li><a href="#">Lorem ipsum dolor</a></li>
+							<li><a href="#">Sit amet</a></li>
+							<li><a href="#">Consectetur adipisicing</a></li>
+							<li><a href="#">Tempor incididunt</a></li>
+							<li><a href="#">Dolore magna aliqua </a></li>
+							<li><a href="#">Ut enim ad minim veniam</a></li>
+							<li><a href="#">Quist nostrud</a></li>
+						</ul>
+					</li>
+					<li><a href="#">payment</a></li>
+					<li class="shipping"><a href="#">shipping</a></li>
+				</ul>
+			</div>
+			<div class="search col-sm-12 col-md-3">
+					<form action="">
+					<input type="search" placeholder="search">
+					<input type="image" src="images/icon (4).png" alt="">
 					</form>
-				</div>
-
-
 				<div class="cart">
 					<div class="cart-cart">
-						<img src="images/icon (1).png" alt="">
-
+						<img src="images/cart-blue.png" alt="">
 					</div>
 					<div class="cart-index">4</div>
 				</div>
-				</div>	
+			</div>	
+		</div>
+	</div>	
+</header>
+<main class="main">
+	<div class="slide"></div>
+	<div class="container">
+		<div class="row">
+			<div class="aside col-md-3">
+				<form>
+					<div class="aside-check">Device type</div>
+					   	<input type="checkbox" id="check1">
+					   	<label for="check1">Laptop</label></br>
+					   	<input type="checkbox" id="check2">
+					   	<label for="check2">Tablet</label></br>
+					<div class="aside-check">Color</div>
+					   	<input type="checkbox" id = "check3">
+					   	<label for="check3">Black</label></br>
+					   	<input type="checkbox" id = "check4">
+					   	<label for="check4">Red</label></br>
+					   	<input type="checkbox" id = "check5">
+					   	<label for="check5">Green</label></br>
+					   	<input type="checkbox" id = "check6">
+					   	<label for="check6">Blue</label></br>
+					   	<input type="checkbox" id = "check7">
+					   	<label for="check7">Orange</label></br>
+					<div class="aside-check">Ram</div>
+					   	<input type="checkbox" id = "check8">
+					   	<label for="check8">1gb</label></br>
+					   	<input type="checkbox" id = "check9">
+					   	<label for="check9">2gb</label></br>
+					   	<input type="checkbox" id = "check10">
+					   	<label for="check10">4gb</label></br>
+					   	<input type="checkbox" id = "check11">
+					   	<label for="check11">6gb</label></br>
+					   	<input type="checkbox" id = "check12">
+					   	<label for="check12">8gb</label></br>
+					<div class="aside-show-more"><a href="">show more options...</a></div>
+						<div><button class="aside-button">submit</button></div>	
+				</form>
 			</div>
-		</div>	
-	</header>
-	
-
-
-
-	<main class="main">
-
-		<div class="slide-col-md-12"></div>
-
-		<div class="container">
-			<div class="row">
-					<div class="aside-col-md-3">
-						<div class="device_type">
-							<ul>Device type
-								<li>Laptop</li>
-								<li>Tablet</li>
-							</ul>
-						</div>
-						<div class="color">
-							<ul>Color
-								<li>Black</li>
-								<li>Red</li>
-								<li>Green</li>
-								<li>Blue</li>
-								<li>Orange</li>
-							</ul>
-						</div>
-						<div class="color">
-							<ul>Ram
-								<li>1gb</li>
-								<li>2gb</li>
-								<li>4gb</li>
-								<li>6gb</li>
-								<li>8gb</li>
-							</ul>
-						</div>
-						<div><a href="">show more options...</a></div>
-						<button>submit</button>
-						
-				</div>
-			
-
-				<div class="content-col-md-9">
-				
+		<div class="content col-md-9">					
 				<div class="way">
 					<a href="">Home page</a>  
-					<a href="">> Products</a> 
-					<a href="">> Laptops and Tablets</a>
-				</div>
-					
+						<a href=""> > Products</a> 
+						<a href=""> > Laptops and Tablets</a>
+					</div>
+			<div class="row">
 				<div class="content-head">Laptops and Tablets
 				</div>
+			<form action="">
 				<select class="selected">
-					<option value="" selected="">sort by prise</option>
-					<option value="">sort by name</option>
-					<option value="">sort by date</option>
-					<option value="">sort by popularity</option>
-						
+					<option value="" selected=""><a href="">sort by prise</a></option>
+					<option value=""><a href="">sort by name</a></option>
+					<option value=""><a href="">sort by date</a></option>
+					<option value=""><a href="">sort by popularity</a></option>
 				</select>
-				<div class="row"></div>
-				
-	
-				<div class="catalog">
-
-				</div>
-					<div class="product-col-№1">
-						<div class="product1">
-						<img src="images/rectangle1.png" alt="">
-						<img src="images/rectangle2.png" alt="">
+			</form>
+			</div>
+			<div class="row">
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device1.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
 						</div>
-
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#1 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$599<sup>25</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
 					</div>
-				
-					<div class="product-col-№2">
-						<img src="images/rectangle1.png" alt="">
-						<img src="images/rectangle2.png" alt="">
-						
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device2.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#2 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$1250<sup>99</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
 					</div>
-
-					<div class="product-col-№3">
-						<img src="images/rectangle1.png" alt="">
-						<img src="images/rectangle2.png" alt="">
-						
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device3.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#3 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$399<sup>50</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
 					</div>
-
-					
-
-
-				</div>
-
-
-
-
-</div>
-
-				
-
-			
-		</div>
-		
-
-
-
+			</div>
+			<div class="row">
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device4.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#4 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$599<sup>25</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
+					</div>
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device5.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#5 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$1250<sup>99</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
+					</div>
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device6.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#6 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$399<sup>50</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
+					</div>
+			</div>
+			<div class="row">
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device7.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#7 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$599<sup>25</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
+					</div>
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device8.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#8 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$1250<sup>99</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
+					</div>
+					<div class="product">
+						<div class="product-top">
+							<div class="device"><img src="images/device9.png" alt=""></div>
+							<div class="target"></div>
+							<div class="heart"></div>
+						</div>
+						<div class="product-bottom">
+							<span class="device-info">
+							<div class="device-name">#9 Device Name</div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+							TYPE: Laptop</br>
+							Screen size: 7 inches</br>
+							RAM: 1GB
+							<div class="device-price">$399<sup>50</sup></div>
+							</span>
+							<div class="details"><button class="details-button">more details</button></div>	
+							<div ><button class="add-cart-button">add to cart <div class="addcart"></div></button></div>	
+						</div>
+					</div>
+			</div>
+			<div class="row">
+				<div class="load-more"><a href="">Load more...</a></div>	
+			</div>
+</div>			
 </main>
-
-
-
 	<footer class="footer">
 		<div class="footer_text">Copyright 2017</div>
 	</footer>
